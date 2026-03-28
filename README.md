@@ -37,7 +37,7 @@ SastPython is a command-line Static Application Security Testing (SAST) tool des
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/<username>/SastPython.git
+git clone https://github.com/nightinggale-teng/SastPython.git
 cd SastPython
 ```
 
