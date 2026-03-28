@@ -24,9 +24,9 @@ dependencies = [
 include = ["sastpython*"]
 
 [project.urls]
-Homepage = "https://github.com/nightinggale-teng/Fyp-Sast-Python"
-Repository = "https://github.com/nightinggale-teng/Fyp-Sast-Python.git"
-Issues = "https://github.com/nightinggale-teng/Fyp-Sast-Python/issues"
+Homepage = "https://github.com/nightinggale-teng/SastPython"
+Repository = "https://github.com/nightinggale-teng/SastPython.git"
+Issues = "https://github.com/nightinggale-teng/SastPython/issues"
 
 [project.scripts]
 SastPython = "sastpython.cli:_entry_point"
