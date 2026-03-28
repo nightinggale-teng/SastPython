@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sastpython"
+version = "1.0.0"
+description = "Static Application Security Testing (SAST) tool for Python"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+  { name = "LCT", email = "TP065355@mail.apu.edu.my" }
+]
+keywords = ["sast", "security", "static-analysis", "python"]
+
+dependencies = [
+  "rich",
+  "pyfiglet",
+  "reportlab>=3.6"
+]
+
+[tool.setuptools.packages.find]
+include = ["sastpython*"]
+
+[project.urls]
+Homepage = "https://github.com/nightinggale-teng/Fyp-Sast-Python"
+Repository = "https://github.com/nightinggale-teng/Fyp-Sast-Python.git"
+Issues = "https://github.com/nightinggale-teng/Fyp-Sast-Python/issues"
+
+[project.scripts]
+SastPython = "sastpython.cli:_entry_point"
